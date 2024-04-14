@@ -103,6 +103,12 @@ button {
     color: #ffffff;
 }
 
+.heading-content h3 {
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+
 .heading-content h2 {
     line-height: 1.8;
     letter-spacing: .02em;
