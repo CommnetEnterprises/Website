@@ -93,7 +93,7 @@ button {
   color: #ffffff;
   z-index: 9999;
   bottom: 15px;
-  left: 15px;
+  right: 15px;
   display: inline-block;
 }
 
@@ -610,3 +610,4 @@ Media queries
         display: none;
     }
 }
+
