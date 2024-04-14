@@ -16,6 +16,7 @@ html {
     --primary: #4f4040;
     --secondary: #8a766a;
     --accent: #ffaa00;
+    --otherone: black;
 }
 
 :root[data-theme="dark"] {
