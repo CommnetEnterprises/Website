@@ -6,6 +6,21 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+:root[data-theme="light"] {
+    --text: #161212;
+    --background: #ffffff;
+    --primary: #4f4040;
+    --secondary: #8a766a;
+    --accent: #ffaa00;
+  }
+  :root[data-theme="dark"] {
+    --text: #ede9e9;
+    --background: #000000;
+    --primary: #bfb0b0;
+    --secondary: #958175;
+    --accent: #ffaa00;
+  }  
+
 html {
     scroll-behavior: smooth;
 }
