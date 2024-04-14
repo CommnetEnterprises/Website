@@ -280,6 +280,7 @@ Team Members
 }
 
 .team-item:hover .team-text {
+    background-color: var(--background);
     right: 30px;
     opacity: 1;
 }
