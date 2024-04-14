@@ -254,6 +254,11 @@ Portfolio
 Team Members
 ////////////////////////////////////////*/
 
+
+.team-item {
+    padding-bottom: 1rem;
+}
+
 .team-item img {
     transition: .5s;
 }
