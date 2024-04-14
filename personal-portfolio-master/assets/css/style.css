@@ -46,6 +46,7 @@ h5,
 h6 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
+    color: var(--text);
 }
 
 a {
@@ -75,6 +76,7 @@ a:hover {
 
 section {
     padding: 100px 0;
+    color: var(--text);
 }
 
 button {
@@ -264,7 +266,7 @@ Blog
 }
 
 .blog-post:hover {
-    border: 2px solid #ffffff;
+    border: 2px solid var(--text);
     transition: all .2s ease-in-out;
 }
 
