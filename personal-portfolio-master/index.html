@@ -36,7 +36,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
 
-    <title>Personal Portfolio - Themes Bootstrap</title>
+    <title>Mobites Solutions</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68929300-2"></script>
     <script>
@@ -55,6 +55,9 @@
 
 <body>
 
+    <script>
+    document.documentElement.setAttribute('data-theme', 'light');
+    </script>
 
     <!-- Theme Switcher -->
     <button>
@@ -88,6 +91,7 @@
     <!-- Script for Theme Switcher -->
     <script>
         function toggleTheme() {
+
             const currentTheme = document.documentElement.getAttribute('data-theme');
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
             document.documentElement.setAttribute('data-theme', newTheme);
@@ -104,7 +108,8 @@
 
     <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="header-logo"></a>
+            <!-- logo Image -->
+            <a class="navbar-brand" href="index.html"><img src="" alt="logo-image" class="header-logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="icon ion-md-menu"></i>
@@ -117,9 +122,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#call-to-action">Contact</a>
@@ -269,7 +271,7 @@
             <div class="pricing-wrapper">
                 <div class="pricing-card">
                     <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg"
+                        <img class="pricing-card-icon" src="https://themewagon.github.io/proman/assets/imgs/scooter.svg"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="pricing-card-body">
@@ -291,7 +293,7 @@
                 </div>
                 <div class="pricing-card">
                     <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg"
+                        <img class="pricing-card-icon" src="https://themewagon.github.io/proman/assets/imgs/shipped.svg"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="pricing-card-body">
@@ -313,7 +315,7 @@
                 </div>
                 <div class="pricing-card">
                     <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg"
+                        <img class="pricing-card-icon" src="https://themewagon.github.io/proman/assets/imgs/startup.svg"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="pricing-card-body">
@@ -338,6 +340,94 @@
         </div> <!-- end of container -->
     </section><!-- end of pricing section -->
 
+
+    <!-- our team -->
+    <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Team Members</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="https://themewagon.github.io/proman/img/team-1.jpg" alt="">
+                        <div class="team-text rounded-end p-4">
+                            <div>
+                                <h5>Lethabo</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="https://themewagon.github.io/proman/img/team-2.jpg" alt="">
+                        <div class="team-text rounded-end p-4">
+                            <div>
+                                <h5>Thando</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="https://themewagon.github.io/proman/img/team-3.jpg" alt="">
+                        <div class="team-text rounded-end p-4">
+                            <div>
+                                <h5>Mogale</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="https://themewagon.github.io/proman/img/team-3.jpg" alt="">
+                        <div class="team-text rounded-end p-4">
+                            <div>
+                                <h5>Tshepang</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="https://themewagon.github.io/proman/img/team-3.jpg" alt="">
+                        <div class="team-text rounded-end p-4">
+                            <div>
+                                <h5>Nasser</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="https://themewagon.github.io/proman/img/team-3.jpg" alt="">
+                        <div class="team-text rounded-end p-4">
+                            <div>
+                                <h5>Lethabo</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section id="blog">
         <div class="container">
@@ -411,7 +501,7 @@
     <section id="footer">
         <div class="container">
             <h6>Let's work together.</h6>
-            <small>Personal Portfolio 2019 © • Created by <a href="https://themesbootstrap.com.mx/index.html">Themes
+            <small>Mobites Solutions 2024 © • Created by <a href="https://themesbootstrap.com.mx/index.html">Themes
                     Bootstrap</a></small>
             <ul class="list-inline margintop-sm">
                 <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
