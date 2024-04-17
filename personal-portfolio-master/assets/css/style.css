@@ -43,7 +43,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     font-family: 'Merriweather', serif;
     font-weight: 300;
 }
@@ -421,7 +422,26 @@ Blog
     flex-wrap: wrap;
 }
 
+/*/////////////////////////////////////////
+Contact Us
+////////////////////////////////////////*/
 
+
+.contact{
+    color: var(--text);
+    padding-top: 2rem;
+}
+
+
+.contact .info{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#call-to-action{
+    padding-bottom: 0;
+}
 /*/////////////////////////////////////////
 Footer
 ////////////////////////////////////////*/
