@@ -190,7 +190,7 @@ Hero
 }
 
 .hero-button {
-    background-color: var(--secondary);
+    background-color: var(--accent);
     position: absolute;
     padding: 15px 30px;
     bottom: 30px;
@@ -218,8 +218,9 @@ Portfolio
 
 .portfolio-details {
     position: absolute;
-    color: var(--accent);
+    color: var(--primary);
     top: 20px;
+    font-weight: 900;
     left: 20px;
 }
 
@@ -229,7 +230,7 @@ Portfolio
 }
 
 .portfolio-button {
-    background-color: var(--secondary);
+    background-color: var(--accent);
     position: absolute;
     padding: 15px 30px;
     bottom: 20px;
@@ -237,11 +238,11 @@ Portfolio
 }
 
 .portfolio-link {
-    color: var(--accent);
+    color: var(--text);
 }
 
 .portfolio-link:hover {
-    color: var(--accent);
+    color: var(--text);
     opacity: .8;
 }
 
@@ -547,7 +548,7 @@ Contact Us
 }
 
 .wrapper ul li i {
-    color: var(--text);
+    color: var(--accent);
     font-size: 22px;
     opacity: 0;
     transition: opacity 1.7s;
