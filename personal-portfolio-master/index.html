@@ -543,7 +543,7 @@
             <div class="container contact" style="display: none;">
                 <div class="row">
                     <div class="col-lg-6 mb-5 mb-lg-0">
-                        <form action="contact.php" method="post" class="">
+                        <form action="https://formsubmit.co/japstir@gmail.com" method="POST" class="">
                             <div class="row form-group">
                                 <div class="col-md-6 mb-3 mb-md-0">
                                     <label class="text-black" for="fname">First Name</label>
@@ -580,6 +580,8 @@
                             <div class="row form-group">
                                 <div class="col-md-12">
                                     <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                                    <input type="hidden" name="_subject" value="New submission!">
+                                    <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
                                 </div>
                             </div>
                         </form>
