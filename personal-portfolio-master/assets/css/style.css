@@ -238,6 +238,7 @@ Portfolio
 }
 
 .portfolio-link {
+    font-weight: 500;
     color: var(--text);
 }
 
